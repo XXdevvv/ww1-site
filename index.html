@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ο Πρώτος Παγκόσμιος Πόλεμος</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #2b2b2b, #444);
+      color: #fff;
+      padding: 3rem 1rem 2rem;
+      text-align: center;
+      animation: fadeInDown 1.5s ease-out;
+    }
+    @keyframes fadeInDown {
+      0% { transform: translateY(-50px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      animation: fadeInUp 1.5s ease-out;
+    }
+    @keyframes fadeInUp {
+      0% { transform: translateY(50px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+    h1, h2 {
+      color: #222;
+    }
+    .timeline {
+      position: relative;
+      margin-top: 2rem;
+    }
+    .event {
+      background: #e6ebf0;
+      border-left: 6px solid #005691;
+      margin: 1rem 0;
+      padding: 1rem 1.5rem;
+      border-radius: 4px;
+      animation: slideIn 1s ease forwards;
+    }
+    @keyframes slideIn {
+      from { transform: translateX(-100px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 1rem 0;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #222;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ο Πρώτος Παγκόσμιος Πόλεμος</h1>
+    <p>Μια διαδραστική ματιά στην ιστορία και τα γεγονότα που τον σημάδεψαν</p>
+  </header>
+  <section>
+    <h2>Εισαγωγή</h2>
+    <p>Ο Πρώτος Παγκόσμιος Πόλεμος ήταν μία από τις πιο καθοριστικές συγκρούσεις του 20ού αιώνα. Ξεκίνησε το 1914 και τελείωσε το 1918, με εκατομμύρια θύματα και τεράστιες αλλαγές στον παγκόσμιο χάρτη.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/WWI_Map_EN.svg/1200px-WWI_Map_EN.svg.png" alt="Χάρτης του Πρώτου Παγκοσμίου Πολέμου">
+  </section>
+  <section>
+    <h2>Χρονολόγιο Γεγονότων</h2>
+    <div class="timeline">
+      <div class="event"><strong>28 Ιουνίου 1914:</strong> Δολοφονία του αρχιδούκα Φραγκίσκου Φερδινάνδου στο Σεράγεβο.</div>
+      <div class="event"><strong>28 Ιουλίου 1914:</strong> Η Αυστροουγγαρία κηρύσσει πόλεμο στη Σερβία.</div>
+      <div class="event"><strong>1915:</strong> Η Ιταλία εισέρχεται στον πόλεμο στο πλευρό της Αντάντ.</div>
+      <div class="event"><strong>1917:</strong> Οι ΗΠΑ μπαίνουν στον πόλεμο.</div>
+      <div class="event"><strong>11 Νοεμβρίου 1918:</strong> Ανακωχή και λήξη του πολέμου.</div>
+    </div>
+  </section>
+  <section>
+    <h2>Συμπεράσματα</h2>
+    <p>Ο πόλεμος αυτός άλλαξε τον κόσμο για πάντα, οδηγώντας σε γεωπολιτικές ανακατατάξεις, την ίδρυση της Κοινωνίας των Εθνών και τις βάσεις για τον Δεύτερο Παγκόσμιο Πόλεμο.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/WWI_Trenches.jpg/1024px-WWI_Trenches.jpg" alt="Χαρακώματα του Α' Παγκοσμίου Πολέμου">
+  </section>
+  <footer>
+    &copy; 2025 - Δημιουργία από έναν λάτρη της ιστορίας
+  </footer>
+</body>
+</html>
